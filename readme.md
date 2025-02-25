@@ -14,7 +14,8 @@ flowershop/
 │                   └── example/
 │                       ├── AnnualFlowers.java
 │                       ├── OrderFlowers.java
-│                       └── Tester.java
+│                       ├── Tester.java
+│                       └── StringUtility.java
 ├── readme.md
 └── Screenshot.png
 ```
@@ -29,6 +30,9 @@ This class handles the processing of the flower order. It includes methods to sp
 
 ### [Tester](src/main/java/annualflowers/com/example/Tester.java)
 This class contains the main method which serves as the entry point of the application. It interacts with the user to get the flower order details and uses the `OrderFlowers` class to process the order.
+
+### [StringUtility](src/main/java/annualflowers/com/example/StringUtility.java)
+This class provides utility methods for string manipulation, such as trimming and splitting strings.
 
 ## Result
 
